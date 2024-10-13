@@ -18,7 +18,9 @@ class CZ(Circle):
         print("圆柱的半径和高分别为",self.r,self.h)
     def V(self):
         return self.r*self.r*self.h*pi
+
 #modified for R5 step
+#modified for R4 step
 cz=CZ(1,2)
 cz.show()
 print(cz.V())
